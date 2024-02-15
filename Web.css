@@ -1,0 +1,264 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1350px;
+    font-family: "Merriweather", serif;
+}
+.banner{
+    background-image: url('./resources/Banner\ Image.png'),linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.b1{
+   height: auto;
+   width: 300px;
+}
+
+.b1> h4{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.b1 > h2{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.offer{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.o1{
+    font-size: 52px;
+    color: red;
+    text-decoration: solid;
+}
+.o2{
+    font-size: 15px;
+    color: red;
+}
+.o3{
+    font-size: 22px;
+    text-decoration: solid;
+}
+.o4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    width: auto;
+    height: 300px;
+}
+
+.welcome{
+    height: 450px;
+    margin-top: 20px;
+   background-image: url('./resources/Vectorrr.png'),linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.9));
+   background-blend-mode: overlay;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   border-radius: 5px;
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.f1{
+    color: white;
+}
+.btn{
+    background-color: transparent;
+    color: white;
+    height: 50px;
+    width: auto;
+    border-radius: 10px;
+    border: 0px;
+
+}
+.f2{
+    height: 350px;
+    width: auto;
+}
+
+.info{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background: linear-gradient(rgba(255,209,233,1),rgba(255,255,255));
+    text-align: center;
+}
+
+.i1{
+    font-size: 25px;
+}
+.s1{
+    color: #FF0000;
+}
+.btn1{
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: auto;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.special{
+    margin-top: 30px;
+ display: grid;
+ grid-template-columns: 1fr 2fr 1fr;
+
+}
+
+.sp1{
+  color: red;
+  font-size: 14px;
+
+}
+.sp2{
+    font-size: 30px;
+
+}
+.p1{
+    font-size: 12px;
+    color: #070211;
+}
+
+
+.img2{
+    height: 300px;
+    width: auto;
+   padding: 20px;
+    border: 10px solid red;
+    border-radius: 50%;
+}
+
+.pp2{
+  
+    text-align: center;
+}
+
+.sp3{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.img3{
+    margin-top: 15px;
+    height: 70px;
+    width: auto;
+}
+
+.holiday{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.hard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1{
+    width: 60%;
+}
+.h2{
+    width: 40%;
+    position: relative;
+}
+
+
+.img5{
+    width: 100%;
+    height: auto;
+}
+.img6{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    left: -118px;
+    top: 150px;
+}
+.h3{
+    position: relative;
+}
+
+.img7{
+    height: 400px;
+    width: auto;
+    position: absolute;
+    top: -275px;
+    left: 152px;
+}
+
+.img8{
+    height: 130px;
+    width: 100%;
+}
+
+.portfolio{
+    margin-top: 30px;
+}
+
+.sec{
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  margin-top: 20px;
+}
+.sec-pic{
+    width: 100%;
+    height: auto;
+}
+
+.subscribe{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgba(255,209,233,1),rgba(255,255,255));
+}
+.d1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.img9{
+    width: 100px;
+    height: auto;
+}
+
+.sec-pic:hover{
+   opacity: 0.5;
+}
+.footer{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    background-color: #070211;
+}
+.f1{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
